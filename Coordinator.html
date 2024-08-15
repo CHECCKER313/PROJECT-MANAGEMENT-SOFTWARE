@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e14cb0b988.js" crossorigin="anonymous"></script>
+    <title>EIC</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+<style>
+    .greaterflex{
+        display: flex;
+    }
+    table{
+        height: 50px;
+        width: 100px;
+    }
+    .left_side ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            margin-top: 80px;
+        }
+        .left_side li{
+            float:none;
+            padding-bottom: 25px;
+            
+        }
+        .left_side li a{
+            /* padding: 15px;            */
+            color: black;
+            text-decoration: none;
+        }
+    .greaterflex .left_side{
+        margin: 0;
+        padding: 10px;
+        background-color: white;
+        height:max-content
+        width:500px;
+    }
+    .nav ul{
+            padding-top: 25px;
+            list-style: none;
+            margin-left: 375px;
+        }
+        
+        .nav li{
+            display: inline;
+            padding: 10px;            
+        }
+        .nav li a{
+            text-decoration: none;
+            color: rgb(68, 3, 3);
+        }
+        .box_container_1{
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            height: 400px;
+        }
+        
+        .flexright{
+            display: flex;
+            justify-content:space-between;
+            gap: 120px;
+        }
+        .one{
+            display: block;
+            width: 450px;
+        }
+        .box{
+            background-color: rgb(225, 173, 60);
+            width: 200px;
+            height: 200px;
+        }
+</style>
+<body>
+<div class="greaterflex">
+    <div class="left_side">
+        <img src="/IMAGES/2.JPG" alt="">
+        <div class="list">
+            <ul>
+                <li> <i class="fa-brands fa-windows"></i> <a href="#">DASHBOARD</a></li>
+                <li><i class="fa-regular fa-user"></i><a href="#">ABOUT</a></li>
+                <li><i class="fa-solid fa-list-check"></i><a href="">TASKS</a></li>
+                <li><i class="fa-solid fa-envelope"></i><a href="#">NOTIFICATIONS</a></li>
+                <li><i class="fa-solid fa-gears"></i><a href="#">SETTINGS</a></li>
+                <li><i class="fa-solid fa-bars-progress"></i><a href="">PROJECTS</a></li>
+                <li><i class="fa-solid fa-calendar-days"></i><a href="">CALENDAR</a></li>
+            </ul>
+        </div>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-snapchat"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+        <a href="#" class="nav-toggle left_side"></a>
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    <div class="rightside">
+        <h1 style="margin-bottom: 1px; padding: 15px;background-color: rgb(248, 212, 218);">WTC-SAK-E22001</h1>
+        <div class="flex1">
+        <img style="height: 40px; margin-left: 250px; margin-top: 2px;" src="/IMAGES/image-removebg-preview (2).png" alt="">
+        <button class="btn" type="button"> <a style="color: white;" href="">Sign Out</a></button>
+        </div>       
+        <div class="container2">
+            <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#one">
+                ENGNEERS INCHARGE
+            </button>
+            <div class="modal fade" id="one">
+                <div class="modal-dialog modal-lg modal-dialog-centered"> 
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title">ABC</h1>
+                            <button class="close" type="button" data-dismiss="modal">
+                                &times;
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>DEF</h3>
+                        </div>
+                        <div class="modal-footer">
+                                <button class="btn btn-primary" type="button" data-dismiss="modal" >
+                                    CLOSE
+                                </button>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><a class="active" href="/">Overview</a></li>
+                    <li><a href="/BOOTSTRAP/ABOUTUS.html">Dashboard</a></li>
+                    <li><a href="/">Timeline</a></li>
+                    <li><a href="/BOOTSTRAP/LOCATEUS.html">Calendar</a></li>
+                    <li><a href="/">Feedback</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        
+            <hr>
+    <div class="flexright">
+        <div class="wrapper">
+        <div class="container"><h6>PEB buildings for tumur</h6> 
+            <div class="progress">
+                <div style="width: 70%;" class="progress-bar bg-success progress-bar-striped progress-bar-animated">
+                    70%
+                </div>
+                <div style="width: 30%;" class="progress-bar bg-danger">
+                    30%
+                </div>
+            </div>
+        </div>
+        <div class="container"><h6>Proposed estimation of STP tank</h6> 
+            <div class="progress">
+                <div style="width: 70%;" class="progress-bar bg-success progress-bar-striped progress-bar-animated">
+                    70%
+                </div>
+                <div style="width: 30%;" class="progress-bar bg-danger">
+                    30%
+                </div>
+            </div>
+        </div>
+        <div class="container"><h6>Estimaton of proposed solar MMS</h6> 
+            <div class="progress">
+                <div style="width: 70%;" class="progress-bar bg-success progress-bar-striped progress-bar-animated">
+                    70%
+                </div>
+                <div style="width: 30%;" class="progress-bar bg-danger">
+                    30%
+                </div>
+            </div>
+        </div> <br>
+        <div class="container">
+            <table class="table w-7100 table-sm table-bordered table-dark table-striped table-hover ">
+            
+                <tr>
+                    <th class="w-25">Project Name</th>
+                    <th class="w-25">Status</th>
+                    <th class="w-25">Concern</th>
+                </tr>
+                <tr>
+                    <td>Nadheshan</td>
+                    <td style="color: rgb(237, 226, 226);">HOLD</td>
+                    <td>90%</td>
+                </tr><tr>
+                    <td>Kuldeep</td>
+                    <td style="color: rgb(233, 208, 208);">HOLD</td>
+                    <td>91%</td>
+                </tr>
+            
+            </table>
+        </div>
+    </div>
+    <div class="box_container_1">
+        <div class="box">
+            <img src="/IMAGES/5a.JPG" alt="">
+            <h2 style="margin-left: 10px;">Loream Ipsum</h2>
+            <h6 style="margin-left: 10px;">Praesent tincidunt sed</h6>
+        </div>
+        <div class="box" id="two">
+            <img src="/IMAGES/5 b.JPG" alt="">
+            <h2 style="margin-left: 10px;">Lorem Ipsum</h2>
+            <h6 style="margin-left: 10px;">Praesent tincivida diam non fringilla.</h6>
+        </div>
+        <div class="box" id="three">
+            <img src="/IMAGES/5 c.JPG" alt="">
+            <h2 style="margin-left: 10px;">Lorem Ipsum</h2>
+            <h6 style="margin-left: 10px;">Praesent tincidunt avida diam non fringilla.</h6>
+        </div>
+    </div>
+    
+</div>
+
+</div>
+</body>
+</html>

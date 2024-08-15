@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    html, body{
+        background-image: url(/IMAGES/LOGINbg.JPG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-blend-mode:lighten
+    }
+    .container{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            gap: 45px;
+            padding: 100px 300px 20px 300px;
+            
+        }
+        .left-login{
+            height: 300px;
+            width: 300px;
+            background-color: aliceblue;
+            border: 2px solid blue;     
+            padding:25px;  
+            margin-top: 50px;
+             
+        }
+        .left-login-part2{
+            display: flex;
+
+        }
+        .left-login-part3 input{
+            background-color: blue;
+            height: 30px;
+            border-radius: 3px;
+            color: white;
+            width: 300px;
+        }
+
+
+</style>
+<body>
+    
+    <div class="container">
+        <div class="left-login">
+            <h3>Login</h3> <br>
+            
+            <span><i class="fa-solid fa-envelope"></i><input style="width: 250px;" type="email" name="email" id="email" placeholder="Enter your email"></span><br> <br>
+            <span><i class="fa-solid fa-lock"></i><input style="width: 250px;" type="password" name="password" id="password" placeholder="Confirm your password"></i></span> <br>
+        
+
+        <div style="margin-top: 10px;" class="left-login-part2">
+            <input type="checkbox">Remember me&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h5><a href="#">Forgot password</a></h5>
+        </div>
+        <br>
+
+        <div class="left-login-part3">
+        <input type="submit" name="Login now" value="Login Now">
+        </div>
+        <h5 style="text-align: center;">Don't have an account? <a href="/frontend/SIGNUP.html">Sign up now</a></h5>
+        
+        </div>
+
+</body>
+</html>

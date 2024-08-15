@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        .right-login{
+            height: 400px;
+            width: 300px;
+            background-color: aliceblue;
+            padding: 0px 25px;
+            p
+        }
+        .submit{
+            background-color: rgb(209, 209, 223);
+            width: 300px;
+            height: 30px;
+            border-radius: 3px;
+        }
+        .container span{
+            left: 150px;
+        }
+        .right-login h3::after{
+            content: '';
+            height: 2px;
+            width: 20px;
+            background-color: rgb(193, 193, 217);
+            position: absolute;
+            margin-top: 20px;
+            left: 663px;
+        }
+        input{
+            border: none;
+            border-bottom: 1px gray solid;
+        }
+        body{
+            background-color:rgb(187, 187, 206);
+            
+        }
+    
+        .container{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            gap: 45px;
+            padding: 100px 300px 20px 300px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="right-login">
+        <h3>Registration</h3> <br>
+        <span><i class="fa-solid fa-user"></i><input style="width: 260px;" type="name" name="name" value="" placeholder="Enter your name"> </span> <br> <br>
+        <span><i class="fa-solid fa-envelope"></i><input style="width: 260px;" type="email" name="email" value="" placeholder="Enter your email"></span><br> <br>
+        <span><i class="fa-solid fa-lock"></i><input style="width: 260px;" type="password" name="password" value="" placeholder="Create a password"></span> <br> <br>
+        <span><i class="fa-solid fa-lock"></i><input style="width: 260px;" type="password" name="password" value="" placeholder="Confirm your password"></span> <br>
+        <input style="margin-top: 10px;" type="checkbox">I accept all terms and conditions<br> <br><br><br>
+        <input style="color: white;" type="submit" class="submit" value="Register Now">
+        <h5 style="text-align: center;">Already have an account? <a href="/frontend/LOGIN.html">Login Now</a></h5>
+
+    </div>
+    
+</body>
+</html>

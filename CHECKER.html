@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e14cb0b988.js" crossorigin="anonymous"></script>
+    <title>CHECKER</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+<style>
+    .container{
+        display: flex;
+    }
+    .left_side ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            margin-top: 80px;
+        }
+        .left_side li{
+            float:none;
+            padding-bottom: 25px;
+            
+        }
+        .left_side li a{
+            /* padding: 15px;            */
+            color: black;
+            text-decoration: none;
+        }
+    .container .left_side{
+        margin: 0;
+        padding: 10px;
+        background-color: white;
+        height:max-content
+        width:500px;
+    }
+    .nav ul{
+            padding-top: 25px;
+            list-style: none;
+            margin-left: 375px;
+        }
+        
+        .nav li{
+            display: inline;
+            padding: 10px;            
+        }
+        .nav li a{
+            text-decoration: none;
+            color: black;
+        }
+        .flex1 button{
+            background-color: orange;
+            border: solid 5px none;   
+            position: relative;   
+              
+        }
+        .flex1{
+            display: flex;
+            justify-content: space-between;
+        }
+        .group1{
+            display: flex;
+        }
+</style>
+<body>
+    <div class="container">
+    <div class="left_side">        
+        <img src="/IMAGES/2.JPG" alt="">
+        <div class="list">
+            <ul>
+                <li> <i class="fa-brands fa-windows"></i> <a href="#">DASHBOARD</a></li>
+                <li><i class="fa-regular fa-user"></i><a href="#">ABOUT</a></li>
+                <li><i class="fa-solid fa-list-check"></i><a href="">TASKS</a></li>
+                <li><i class="fa-solid fa-envelope"></i><a href="#">NOTIFICATIONS</a></li>
+                <li><i class="fa-solid fa-gears"></i><a href="#">SETTINGS</a></li>
+                <li><i class="fa-solid fa-bars-progress"></i><a href="">PROJECTS</a></li>
+                <li><i class="fa-solid fa-calendar-days"></i><a href="">CALENDAR</a></li>
+            </ul>
+        </div>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-snapchat"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+        <a href="#" class="nav-toggle left_side"></a>
+        <i class="fa-solid fa-bars"></i>
+
+    </div>
+
+    <div class="rightside">
+        <h1 style="margin-bottom: 1px; padding: 15px;background-color: rgb(248, 212, 218);">WTC-SAK-E22001</h1>
+        <div class="flex1">
+        <img style="height: 40px; margin-left: 250px; margin-top: 2px;" src="/IMAGES/image-removebg-preview (2).png" alt="">
+        <button class="btn" type="button"> <a style="color: white;" href="">Sign Out</a></button>
+        </div>
+        
+        <div class="container2">
+            <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#one">
+                ENGNEERS INCHARGE
+            </button>
+            <div class="modal fade" id="one">
+                <div class="modal-dialog modal-lg modal-dialog-centered"> 
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title">ABC</h1>
+                            <button class="close" type="button" data-dismiss="modal">
+                                &times;
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>DEF</h3>
+                        </div>
+                        <div class="modal-footer">
+                                <button class="btn btn-primary" type="button" data-dismiss="modal" >
+                                    CLOSE
+                                </button>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <a data-toggle="collapse" data-target="#two" href="" >Active and in progress</a>
+            <div class="collapse show" id="two" >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsam, impedit omnis odit atque deleniti.
+            </div>
+        </div>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><a class="active" href="/">Overview</a></li>
+                    <li><a href="/BOOTSTRAP/ABOUTUS.html">Dashboard</a></li>
+                    <li><a href="/">Timeline</a></li>
+                    <li><a href="/BOOTSTRAP/LOCATEUS.html">Calendar</a></li>
+                    <li><a href="/">Feedback</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        
+            <hr>
+            <div class="container2">
+                <div class="progress">
+                    <div style="width: 70%;" class="progress-bar bg-success progress-bar-striped progress-bar-animated">
+                        70%
+                    </div>
+                    <div style="width: 30%;" class="progress-bar bg-danger">
+                        30%
+                    </div>
+                </div>
+            </div>  <br>
+            <div class="group1">
+            <div class="container">
+                <div class="card" style="width: 300px; img-fluid;">
+                    <img class="card-img-top" src="/IMAGES/web2.JPG" alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Project Summary</h2>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit.                   
+                        </p>
+                        <a class="btn btn-danger stretched-link" href="#">CLICK HERE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="card" style="width: 300px; img-fluid;">
+                    <img class="card-img-top" src="/IMAGES/web2.JPG" alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Project Status</h2>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit.                   
+                        </p>
+                        <a class="btn btn-danger stretched-link" href="#">CLICK HERE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="card" style="width: 300px; img-fluid;">
+                    <img class="card-img-top" src="/IMAGES/web2.JPG" alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Deadlines met</h2>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit.                   
+                        </p>
+                        <a class="btn btn-danger stretched-link" href="#">CLICK HERE</a>
+                    </div>
+                </div>
+            </div> 
+            </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
